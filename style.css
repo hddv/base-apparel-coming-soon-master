@@ -1,3 +1,45 @@
 body{
-  background-color: aliceblue;
+  margin: 0 auto;
+  background-color:aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 16px;
 }
+
+.container{
+  display:flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.column-left{
+  flex: 50%;
+  background: url("images/bg-pattern-desktop.svg");
+  max-width: 50%;
+  padding: 50px 100px
+}
+
+h1{
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+}
+
+h1 span{
+  font-weight: 300;
+  color:hsl(0, 36%, 70%);
+}
+
+p{
+  font-weight: 300;
+  color:hsl(0, 36%, 70%);
+  max-width: 60%;
+}
+
+.column-right{
+  flex: 50%;
+}
+
+
+.attribution { display: none; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
